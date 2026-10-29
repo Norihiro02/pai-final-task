@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# AI model weights (downloaded automatically on first run, large binaries)
+*.pt
+weights/
+
+# Dedicated venv for the AI node (recreate with setup_venv.sh)
+yolo_venv/
+
+# colcon build artifacts
+build/
+install/
+log/
+
+# Docs kept local only (not part of the submitted repo)
+README.md
+REPORT_DRAFT.md
